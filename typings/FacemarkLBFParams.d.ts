@@ -38,5 +38,5 @@ export class FacemarkLBFParams {
   treeDepth: number;
   treeN: number;
   readonly verbose: boolean;
-  constructor(params?: Partial<IFacemarkLBFParams>): FacemarkLBFParams;
+  constructor(params?: Partial<IFacemarkLBFParams>);
 }
